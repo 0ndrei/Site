@@ -1,7 +1,8 @@
 
 body {
-    background:url(../IMG/fon3.jpg); 
-    background-attachment: fixed;
+    background:url(../IMG/fon1.jpg); 
+	background-attachment: fixed;
+	background-size: 100% auto;
    }
 
 
@@ -20,7 +21,7 @@ section {
 
 .video-gallery li {
 	display: inline-block;
-	border: 1px solid blue;
+	
 	border-radius: 5px;
 	padding: 5px;
 	width: 45%;
