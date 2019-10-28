@@ -1,0 +1,50 @@
+
+body {
+    background:url(../IMG/fon.jpg); 
+	background-attachment: fixed;
+	background-size: 100% auto;
+}
+
+
+header h1{
+	font-size:50px;
+	text-align: center;
+	color:crimson
+}
+
+aside, section {
+	display: inline-block;
+	vertical-align: top;
+}
+
+aside {
+        width: 20%;
+}
+
+section {
+        width: 79%;
+}
+
+section h1{
+        color:deepskyblue
+}
+
+section p {
+	font-size: 20px;
+	color:cornsilk;
+}
+
+li{
+	font-size: 20px;
+	color:cornsilk;
+}
+
+.video-gallery li {
+	display: inline-block;
+	border: 1px solid red;
+	border-radius: 5px;
+	padding: 5px;
+	width: 45%;
+}
+
+ 
