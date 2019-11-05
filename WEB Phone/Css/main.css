@@ -1,4 +1,10 @@
-
+body {
+	background:url(../IMG/fon5.jpg); 
+	background-attachment: fixed;
+	background-size: 100% auto;
+	margin: 0;
+	padding: 0;
+}
 
 header h1{
 	font-size:50px;
@@ -9,15 +15,11 @@ header h1{
 aside, section {
 	display: inline-block;
 	vertical-align: top;
-}
-
-aside {
-        width: 15%;
+	width: 20%;
 }
 
 section {
-        width: 74.2%;
-
+		width: 75%;
 }
 
 section h2{
@@ -36,7 +38,7 @@ p{
 
 li{
 	font-size: 20px;
-	color:cornsilk;
+	color:rgb(0, 0, 0);
 }
 
 
@@ -47,5 +49,6 @@ li{
 	padding: 5px;
 	width: 45%;
 }
+
 
  
