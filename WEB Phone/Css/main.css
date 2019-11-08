@@ -1,4 +1,7 @@
 body {
+    background:url(../IMG/fonprin.jpg); 
+	background-attachment: fixed;
+	background-size: 100% auto;
 	margin: 0;
 	padding: 0;
 }
@@ -16,7 +19,7 @@ aside, section {
 }
 
 section {
-		width: 75%;
+		width: 100%;
 }
 
 section h2{
@@ -27,6 +30,8 @@ section p {
 	font-size: 20px;
 	color:black;
 	background:transparent;
+    padding-left:15px;
+	padding-right:15px;
 }
 
 p{
@@ -38,6 +43,16 @@ li{
 	color:rgb(0, 0, 0);
 }
 
+div{
+
+	background: white;
+	margin-left:15%;
+	margin-right: 15%;
+	margin-top: -280px
+
+
+}
+
 
 .video-gallery li {
 	display: inline-block;
@@ -46,6 +61,4 @@ li{
 	padding: 5px;
 	width: 45%;
 }
-
-
  
